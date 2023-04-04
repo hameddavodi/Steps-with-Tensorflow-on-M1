@@ -3,7 +3,7 @@
 So I have tried different methods to use tesorflow natively on M1 and I finally came to the conclusion that the best solution would be from @jeffheaton: 
 
   - Step 1: Install homebrew and python as you can find all on google
-  - Step 2: Install Miniconda from their website: <!link> https://docs.conda.io/en/latest/miniconda.html<link>
+  - Step 2: Install Miniconda from their website: https://docs.conda.io/en/latest/miniconda.html<link>
   - Step 3: Install Xcode using `xcode-select --install`
   - Step 4: Use `conda install -y jupyter` then deactivate conda evn using `conda deactivate`
   - Step 5: Dowload https://raw.githubusercontent.com/jeffheaton/t81_558_deep_learning/master/tensorflow-apple-metal.yml and install it with `conda env create -f tensorflow-apple-metal.yml -n tensorflow`
